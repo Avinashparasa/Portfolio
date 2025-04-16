@@ -7,17 +7,16 @@ import Dairy from "./Dairy.png"
 export const Bio = {
   name: "Avinash Parasa",
   roles: [
-    "Full Stack Developer",
-    
+    "Software Developer",
     
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I’m a motivated, versatile individual with hands‑on Frontend Developer experience at Meditab Software, where I built Angular dashboards and API integrations. Passionate about learning and driven to deliver high‑quality results, I bring a positive attitude and growth mindset to every challenge.",
   github: "https://github.com/Avinashparasa",
   resume:
-    "https://drive.google.com/file/d/14Udl5Jo8wo83fymlwqDPMvCUm_7rymce/view",
-  linkedin: "https://www.linkedin.com/in/avinashparasa/",
+    "https://drive.google.com/file/d/1ehG2kUWvk7UpN0rvz5PVQKfWBv7_zpdw/view?usp=sharing",
+   linkedin: "https://www.linkedin.com/in/avinashparasa/",
   //twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/parasa_avinash/?hl=en",
   //facebook: "https://www.facebook.com/rishav.chanda.165/",
@@ -38,9 +37,9 @@ export const skills = [
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
-        name: "Next Js",
+        name: "Angular Js",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+          "https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2016/04/07131225/angularjs-logo.png",
       },
       {
         name: "HTML",
@@ -175,11 +174,29 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: " Fullstack Engineering Intern",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbVgXZm_IFspNkIZ1HlM52LOTulQw7PdctNg&s", // Optionally add Meditab logo URL
+    role: "Frontend Developer Intern",
+    company: "Meditab Software Pvt. Ltd.",
+    date: "December 2024 - Present",
+    desc: "Working as an Angular Developer on WebIMS, a Web-based Inventory Management System handling procurement, allocation, and tracking of IT assets. Implemented role-based dashboards, API integrations, and real-time updates while ensuring HIPAA compliance in the US healthcare domain.",
+    skills: [
+      "Angular",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "RxJS",
+      "REST APIs",
+      "Bootstrap",
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ6ESMOR1GFOBUuc1mXsZC8vIkTbEIjcjHxQ&s",
+    role: "Fullstack Engineering Intern",
     company: "Coding Samurai",
-    date: "November 2023 - December 2023",
-    desc: "Participated in a hands-on internship focused on mastering the MERN stack, gaining comprehensive skills in full-stack web development. Implemented responsive and interactive user interfaces utilizing React.js",
+    date: "December 2023 - February 2024",
+    desc: "Participated in a hands-on internship focused on mastering the MERN stack, gaining comprehensive skills in full-stack web development. Implemented responsive and interactive user interfaces utilizing React.js.",
     skills: [
       "HTML",
       "Tailwind Css",
@@ -188,33 +205,11 @@ export const experiences = [
       "JavaScript",
       "MongoDB",
       "Node Js",
-      
     ],
     doc: "",
   },
-  {
-    id: 0,
-    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Bharat Intern",
-    date: "Jan 2023 - Mar 2023",
-    desc: "Working on the frontend of the web application using ReactJS, Redux. Designed front-end GUI for over 5 applications using React, HTML, JavaScript, CSS, and Ajax",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Express.JS",
-      
-    ],
-    doc: "",
-  },
-  
- 
-
 ];
+
 
 export const education = [
   {
